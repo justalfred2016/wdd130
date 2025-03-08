@@ -1,25 +1,35 @@
-main {
+/*main {
     max-width: 840px;
     margin: center;
-}
+}*/
 
-aside img {
+img {
     height: auto;
-    width: 200px;
-    opacity: 10px;
+    width: 150px;
+    border:1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 
 }
 
-h1,
+
 nav {
-    color: blue;
-    background-color: pink;
+    background-color: darkblue;
+    padding: 10px;
+
+}nav  a{
     color: white;
-    padding: 16px;
-    text-align: center;
+    display: block;
+    padding: 20px;
+}
+h1{
+    color: darkblue;
+}
+p{
+    padding: 10px;
 }
 
-aside {
+/*aside {
     width: 30rem;
     margin: 1rem;
     border: 1px solid blueviolet;
