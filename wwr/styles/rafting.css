@@ -10,7 +10,7 @@ p {
     font-weight: 200;
     font-size: 17px;
     padding: 10px; 
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .social-links a{
@@ -31,7 +31,8 @@ article h1{
 }
 article img{
     float: right;
-    top: 10%;
+    height: 200px;  
+
 }
  .background{
     width: 100%;
@@ -41,4 +42,36 @@ article img{
 .hero{
     position: relative;
     opacity: 0.8;
+}
+header, footer{
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px, 0 0 0;
+    background-color: #1b998b;
+    color: white;
+    
+}
+nav {
+    list-style-type: none;
+    display: i;
+    overflow: hidden;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    padding: 80px;
+}
+header img{
+    right: 39px;
+}
+nav a:hover{
+    background-color: #f06c9b;
+}
+footer a{
+    padding: 0px;
+}
+section{
+    background-color: #e3b505;
+    text-align: center;
 }
