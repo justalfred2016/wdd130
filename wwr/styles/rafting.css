@@ -1,0 +1,44 @@
+h1 {
+    font-family: "Playfair Display", serif; 
+    font-size: 2.5rem; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+p {
+    font-family: "inter", serif;
+    font-weight: 200;
+    font-size: 17px;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.social-links a{
+    text-decoration: none;
+}
+footer{
+    display: block;
+}
+article{
+    position: absolute;
+    width: 90%;
+    top: 10%;
+    margin: 30px;
+    border: 2px solid #333;
+}
+article h1{
+    text-align: center;
+}
+article img{
+    float: right;
+    top: 10%;
+}
+ .background{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.hero{
+    position: relative;
+    opacity: 0.8;
+}
