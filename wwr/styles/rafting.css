@@ -36,6 +36,7 @@ nav a {
     text-decoration: none;
     padding: 20px;
     transition: background-color 0.3s;
+    color: black;
 }
 
 nav a:hover {
@@ -91,7 +92,7 @@ p {
     font-weight: 200;
     font-size: 17px;
     padding: 10px;
-    color: #333;
+    color: black;
     line-height: 1.6;
 }
 
@@ -124,7 +125,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fe5f55;
-    color: #ecf0f1;
     padding: 20px 0;
     text-align: center;
     margin-top: 30px;
@@ -138,7 +138,6 @@ footer {
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
-    color: #ecf0f1;
     font-size: 20px;
     transition: color 0.3s;
 }
