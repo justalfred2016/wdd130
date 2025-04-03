@@ -26,23 +26,28 @@
         </nav>
     </header>
        <main>
-        <div class="hero">
-            <img class="background" src="images/Background.jpg" alt="crossed oars" width="200">
-            
-            <article>
-                <h1>White Water Rafting</h1>
-                <img src="images/happy-customer.jpg" alt="rafting">
-                <p>White water rafting is a thrilling and exciting adventure sport that takes you through the rapids of a river in an inflatable raft. It's a great way to experience the power of nature and test your skills as you navigate the twists and turns of the river. Whether you're a beginner or an experienced rafter, there's a trip for you. So grab your paddle, put on your life jacket, and get ready for the ride of a lifetime!</p>
-            </article>
-        </div>
-        <section>
-            <h2>History</h2>
-            <div class="history">
-            <p>White water rafting has a long history that dates back to the 19th century when it was first introduced as a recreational activity. It has since grown in popularity and is now enjoyed by people all over the world. The sport has evolved over the years, with new techniques and equipment making it safer and more accessible to a wider audience.</p>
-            <img src="images/whiterafting.jpg" alt="history of rafting" width="400">
-            <p>White water rafting is a thrilling and exciting adventure sport that takes you through the rapids of a river in an inflatable raft. It's a great way to experience the power of nature and test your skills as you navigate the twists and turns of the river. Whether you're a beginner or an experienced rafter, there's a trip for you.</p>
-            </div>
-        </section>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="Inquiry">What is the reason for contacting us?</label>
+                <select id="Inquiry" name="Inquiry" required>
+                    <option value="general">General Inquiry</option>
+                    <option value="Reservation Question">Reservation Question</option>
+                    <option value="Website Suggestion">Website Suggestion</option><br><br>
+                    
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+
+
+
+
+        </form>
         <section>
             <h2>Adventure Awaits You!</h2>
             <div class="gallery">
@@ -58,15 +63,7 @@
              <img src="images/rafting3-min.jpg" alt="rafting" width="200">
              <figcaption>Rafting in the wild</figcaption>
             </figure>
-            <figure> 
-             <img src="images/rafting4-min.jpg" alt="rafting" width="200">
-                <figcaption>Rafting in the wild</figcaption>
-            </figure>
-            <figure> 
-             <img src="images/rafting5-min.jpg" alt="rafting" width="200">
-                <figcaption>Rafting in the wild</figcaption>
-            </figure>
-            </div>
+        
         </section>
        </main>
     <footer class="social-links">
@@ -81,5 +78,5 @@
         </div>
     </footer>
 </body>
-<!-- Last modified: 30 March 2025 -->
+<!-- Last modified: 15 March 2025 -->
 </html>
