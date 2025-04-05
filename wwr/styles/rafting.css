@@ -75,11 +75,6 @@ h1 {
     object-fit: cover;
     opacity: 0.9;
 }
-article {
-    width: 90%;
-    margin: 30px auto;
-    padding: 20px;
-}
 
 article img {
     float: right;
@@ -242,11 +237,5 @@ textarea {
 
 .submit-btn:hover {
     background-color: #2c5470;
-}
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
 }
