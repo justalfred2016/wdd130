@@ -32,7 +32,7 @@ nav {
     gap: 1rem;
 }
 
-nav a {
+nav a, a {
     text-decoration: none;
     padding: 20px;
     transition: background-color 0.3s;
