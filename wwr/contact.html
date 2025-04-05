@@ -25,47 +25,84 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-       <main>
-        <form>
-            <fieldset>
-                <legend>Contact Us</legend>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="Inquiry">What is the reason for contacting us?</label>
-                <select id="Inquiry" name="Inquiry" required>
-                    <option value="general">General Inquiry</option>
-                    <option value="Reservation Question">Reservation Question</option>
-                    <option value="Website Suggestion">Website Suggestion</option><br><br>
-                    
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-                <input type="submit" value="Submit">
-
-
-
-
-        </form>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <div class="gallery">
-            <figure> 
-             <img src="images/rafting2-min.jpg" alt="rafting" width="200">
-             <figcaption>Rafting in the wild</figcaption>
-            </figure>
-            <figure> 
-            <img src="images/rafting1-min.jpg" alt="rafting" width="200">
-             <figcaption>Rafting in the wild</figcaption>
-            </figure>
-            <figure> 
-             <img src="images/rafting3-min.jpg" alt="rafting" width="200">
-             <figcaption>Rafting in the wild</figcaption>
-            </figure>
-        
+    <main>
+        <div class="contact-grid">
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <address>
+                    <p>915 Parrat Fish Street<br>
+                    Kaalfontein, South Africa 1632</p>
+                    <p>📞 (011) 645 1663</p>
+                    <p>✉️ info@whitewaterrafting.com</p>
+                </address>
+                
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen></iframe>
+                </div>
+            </section>
+    
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="https://example.com/contact" method="post">
+                    <fieldset>
+                        <legend>Your Information</legend>
+                        <div class="form-item">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <div class="form-item column2">
+                            <input type="radio" id="general" name="purpose" value="general" checked>
+                            <label for="general">General Inquiry</label>
+                            
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                            
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+    
+                    <div class="form-item">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+    
+                    <div class="form-item">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </div>
+    
+        <section class="employee-profiles">
+            <h2>Our Friendly Team</h2>
+            <div class="employees">
+                <figure>
+                    <img src="images/coloredfemale.webp" alt="Sarah Johnson - Customer Service">
+                    <figcaption>Sarah Johnson<br>Customer Service</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/maleblack.jpeg" alt="Thabo Lesema - Reservations">
+                    <figcaption>Mike Rivera<br>Reservations</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/femaleblack.jpeg" alt="Nthabiseng Macheke - Marketing">
+                    <figcaption>Nthabiseng Macheke<br>Marketing</figcaption>
+                </figure>
+            </div>
         </section>
-       </main>
+    </main>
     <footer class="social-links">
         <div id="footer">
         <p>&copy; 2025 White Water Rafting | Shimani Alfred Tlokotsi</p>
@@ -75,6 +112,7 @@
             <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook" width="30"></a>
             <a href="https://twitter.com"><img src="images/twitter.webp" alt="Twitter" width="30"></a>
             <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram" width="30"></a>
+            <a href="https://app.moqups.com/T8L2JNUnP5gIH1RQ0eHERKxAjKsnhiUY/view/page/ad64222d5 target=">View the wireframe</a>
         </div>
     </footer>
 </body>
