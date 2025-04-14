@@ -97,6 +97,12 @@ nav a:hover {
     border: 2px solid #333;
     opacity: 0.7;
 }
+article{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
 
 /* ===== CONTENT SECTIONS ===== */
 section {
@@ -372,7 +378,7 @@ tr:nth-child(even) {
 .hero{
     position: relative;
 }
-.hero h1{
+#overlay{
     position: absolute;
     top: 50%;
     left: 50%;
